@@ -1,0 +1,12 @@
+fastapi==0.127.0
+uvicorn[standard]==0.41.0
+python-dotenv==1.0.1
+xgboost
+joblib
+httpx
+fastf1
+pandas
+numpy
+scipy
+scikit-learn
+category_encoders

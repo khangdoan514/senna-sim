@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Barlow+Condensed:wght@700;900&family=Zen+Dots&family=Alumni+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Alumni+Sans+Inline+One&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+
+body {
+  background: #170d0d;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* ── CUSTOM CURSOR ──────────────────────────────────────────────────────
+     Hides the default browser cursor so <CustomCursor /> in App.tsx shows.
+     Remove this line to restore the default cursor.
+  ────────────────────────────────────────────────────────────────────── */
+  cursor: none;
+}
+
+/* Hide cursor on interactive elements too so custom one stays visible */
+a, button, select, input, [role="button"] { cursor: none; }
+a { text-decoration: none; color: inherit; }
+select, input { outline: none; }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #170d0d; }
+::-webkit-scrollbar-thumb { background: #e10600; border-radius: 2px; }
+
+/* App-level overrides — most styling lives in Tailwind classes or component
+   inline styles. Add global one-offs here only. */
+
+/* Ensure the root div fills the viewport */
+#root {
+  min-height: 100vh;
+}
+
+/* Prevent layout shift when modal/overlay opens */
+body.overflow-hidden {
+  overflow: hidden;
+}

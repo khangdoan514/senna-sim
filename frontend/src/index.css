@@ -1,0 +1,28 @@
+/* ── Google Fonts ─────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Barlow+Condensed:wght@700;900&family=Zen+Dots&family=Alumni+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Alumni+Sans+Inline+One&display=swap');
+
+/* ── Tailwind directives ──────────────────────────────────────────────────── */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base reset (no Tailwind equivalent for these globals) ────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: #080a0b;
+  color: #ffffff;
+  cursor: none;
+  scroll-behavior: smooth;
+}
+
+/* Custom cursor — Tailwind cursor-none only applies per-element */
+a, button, select, input, textarea, [role="button"], [tabindex] { cursor: none; }
+:focus-visible { outline: none; }
+
+/* Scrollbar — no Tailwind equivalent */
+::-webkit-scrollbar       { width: 4px; }
+::-webkit-scrollbar-track { background: rgba(0,0,0,0.3); }
+::-webkit-scrollbar-thumb { background: rgba(216,43,13,0.35); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(216,43,13,0.65); }
