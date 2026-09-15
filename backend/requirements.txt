@@ -8,5 +8,5 @@ fastf1
 pandas
 numpy
 scipy
-scikit-learn
+scikit-learn<1.8
 category_encoders
