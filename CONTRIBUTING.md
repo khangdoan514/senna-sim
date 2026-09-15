@@ -12,8 +12,8 @@ Senna-Sim was developed by five people, encompassing different scopes of the pro
 3. **Kamsi Ozorji**  
    ML Researcher
 
-4. **Adrian Alvarez**
+4. **Adrian Alvarez** 
    Full-stack Developer
 
-5. **Minh Bui**
+5. **Minh Bui** 
    Full-stack Developer
