@@ -1,31 +1,19 @@
-# **TrackSense Contributors**
+# **Senna-Sim Contributors**
 
-TrackSense was developed by six mentees under the guidance of two mentors.
+Senna-Sim was developed by five people, encompassing different scopes of the project.
 
-## **Mentors**
 
-1. **Taylor Mitchell**  
-   Mentor
+1. **Khang Doan**  
+   Lead Developer
 
-2. **Khang Doan**  
-   Mentor
+2. **Miguel Mendoza**  
+   Project Manager  
 
-## **Mentees**
+3. **Kamsi Ozorji**  
+   ML Researcher
 
-1. **Kate Mezger**  
-   UI Designer and Frontend Developer  
+4. **Adrian Alvarez**
+   Full-stack Developer
 
-2. **Anirudh Devatha**  
-   Fullstack Developer  
-
-3. **David Aiyeyemi**  
-   Fullstack Developer  
-
-4. **Preston Crowe**  
-   Fullstack Developer  
-
-5. **Miguel Mendoza**  
-   Simulation Computational Developer  
-
-6. **Tanmay Bogguram**  
-   Frontend Developer  
+5. **Minh Bui**
+   Full-stack Developer
